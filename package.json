@@ -1,0 +1,20 @@
+{
+  "name": "image-data-service",
+  "version": "0.1.0",
+  "description": "service to analyze given image",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon ./app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henrik Fricke <henrikfricke@web.de>",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.4.1",
+    "connect-params": "^1.0.0",
+    "get-pixels": "^3.3.0",
+    "http": "0.0.0",
+    "lodash": "^4.14.0",
+    "nodemon": "^1.9.2"
+  }
+}
